@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="-34.358860000000000" minlon="139.492349999999988" maxlat="-34.353400000000001" maxlon="139.524589999999989"/></metadata>              
+<wpt lat="-34.35886" lon="139.49235">
+  <extensions>
+    <ogr:SampleID>B1</ogr:SampleID>
+    <ogr:latitude>-34.35886</ogr:latitude>
+    <ogr:longitude>139.49235</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35886" lon="139.49235">
+  <extensions>
+    <ogr:SampleID>B2</ogr:SampleID>
+    <ogr:latitude>-34.35886</ogr:latitude>
+    <ogr:longitude>139.49235</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35886" lon="139.49235">
+  <extensions>
+    <ogr:SampleID>B3</ogr:SampleID>
+    <ogr:latitude>-34.35886</ogr:latitude>
+    <ogr:longitude>139.49235</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35886" lon="139.49235">
+  <extensions>
+    <ogr:SampleID>B4</ogr:SampleID>
+    <ogr:latitude>-34.35886</ogr:latitude>
+    <ogr:longitude>139.49235</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35502" lon="139.4971">
+  <extensions>
+    <ogr:SampleID>B5</ogr:SampleID>
+    <ogr:latitude>-34.35502</ogr:latitude>
+    <ogr:longitude>139.4971</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35553" lon="139.49775">
+  <extensions>
+    <ogr:SampleID>B6</ogr:SampleID>
+    <ogr:latitude>-34.35553</ogr:latitude>
+    <ogr:longitude>139.49775</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35553" lon="139.49775">
+  <extensions>
+    <ogr:SampleID>B7</ogr:SampleID>
+    <ogr:latitude>-34.35553</ogr:latitude>
+    <ogr:longitude>139.49775</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35553" lon="139.49775">
+  <extensions>
+    <ogr:SampleID>B8</ogr:SampleID>
+    <ogr:latitude>-34.35553</ogr:latitude>
+    <ogr:longitude>139.49775</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.3534" lon="139.50228">
+  <extensions>
+    <ogr:SampleID>B9</ogr:SampleID>
+    <ogr:latitude>-34.3534</ogr:latitude>
+    <ogr:longitude>139.50228</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35583" lon="139.51517">
+  <extensions>
+    <ogr:SampleID>B10</ogr:SampleID>
+    <ogr:latitude>-34.35583</ogr:latitude>
+    <ogr:longitude>139.51517</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35583" lon="139.51517">
+  <extensions>
+    <ogr:SampleID>B11</ogr:SampleID>
+    <ogr:latitude>-34.35583</ogr:latitude>
+    <ogr:longitude>139.51517</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35583" lon="139.51517">
+  <extensions>
+    <ogr:SampleID>B12</ogr:SampleID>
+    <ogr:latitude>-34.35583</ogr:latitude>
+    <ogr:longitude>139.51517</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35583" lon="139.51517">
+  <extensions>
+    <ogr:SampleID>B13</ogr:SampleID>
+    <ogr:latitude>-34.35583</ogr:latitude>
+    <ogr:longitude>139.51517</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35539" lon="139.51889">
+  <extensions>
+    <ogr:SampleID>B14</ogr:SampleID>
+    <ogr:latitude>-34.35539</ogr:latitude>
+    <ogr:longitude>139.51889</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35539" lon="139.51889">
+  <extensions>
+    <ogr:SampleID>B15</ogr:SampleID>
+    <ogr:latitude>-34.35539</ogr:latitude>
+    <ogr:longitude>139.51889</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.35589" lon="139.51847">
+  <extensions>
+    <ogr:SampleID>B16</ogr:SampleID>
+    <ogr:latitude>-34.35589</ogr:latitude>
+    <ogr:longitude>139.51847</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.3587" lon="139.52459">
+  <extensions>
+    <ogr:SampleID>B17</ogr:SampleID>
+    <ogr:latitude>-34.3587</ogr:latitude>
+    <ogr:longitude>139.52459</ogr:longitude>
+  </extensions>
+</wpt>
+</gpx>

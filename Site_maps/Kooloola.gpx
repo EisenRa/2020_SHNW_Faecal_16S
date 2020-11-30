@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="-34.540900000000001" minlon="139.579149999999998" maxlat="-34.528939999999999" maxlon="139.591090000000008"/></metadata>              
+<wpt lat="-34.5391" lon="139.59109">
+  <extensions>
+    <ogr:SampleID>K1A</ogr:SampleID>
+    <ogr:latitude>-34.5391</ogr:latitude>
+    <ogr:longitude>139.59109</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.5391" lon="139.59109">
+  <extensions>
+    <ogr:SampleID>K1B</ogr:SampleID>
+    <ogr:latitude>-34.5391</ogr:latitude>
+    <ogr:longitude>139.59109</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.5391" lon="139.59109">
+  <extensions>
+    <ogr:SampleID>K2</ogr:SampleID>
+    <ogr:latitude>-34.5391</ogr:latitude>
+    <ogr:longitude>139.59109</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.5391" lon="139.59109">
+  <extensions>
+    <ogr:SampleID>K3</ogr:SampleID>
+    <ogr:latitude>-34.5391</ogr:latitude>
+    <ogr:longitude>139.59109</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53873" lon="139.58669">
+  <extensions>
+    <ogr:SampleID>K4</ogr:SampleID>
+    <ogr:latitude>-34.53873</ogr:latitude>
+    <ogr:longitude>139.58669</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53873" lon="139.58669">
+  <extensions>
+    <ogr:SampleID>K5</ogr:SampleID>
+    <ogr:latitude>-34.53873</ogr:latitude>
+    <ogr:longitude>139.58669</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53746" lon="139.58525">
+  <extensions>
+    <ogr:SampleID>K6</ogr:SampleID>
+    <ogr:latitude>-34.53746</ogr:latitude>
+    <ogr:longitude>139.58525</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53746" lon="139.58525">
+  <extensions>
+    <ogr:SampleID>K7</ogr:SampleID>
+    <ogr:latitude>-34.53746</ogr:latitude>
+    <ogr:longitude>139.58525</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53646" lon="139.58457">
+  <extensions>
+    <ogr:SampleID>K8</ogr:SampleID>
+    <ogr:latitude>-34.53646</ogr:latitude>
+    <ogr:longitude>139.58457</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53621" lon="139.58507">
+  <extensions>
+    <ogr:SampleID>K9</ogr:SampleID>
+    <ogr:latitude>-34.53621</ogr:latitude>
+    <ogr:longitude>139.58507</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53621" lon="139.58507">
+  <extensions>
+    <ogr:SampleID>K10</ogr:SampleID>
+    <ogr:latitude>-34.53621</ogr:latitude>
+    <ogr:longitude>139.58507</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53417" lon="139.58418">
+  <extensions>
+    <ogr:SampleID>K11</ogr:SampleID>
+    <ogr:latitude>-34.53417</ogr:latitude>
+    <ogr:longitude>139.58418</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.52894" lon="139.57983">
+  <extensions>
+    <ogr:SampleID>K12</ogr:SampleID>
+    <ogr:latitude>-34.52894</ogr:latitude>
+    <ogr:longitude>139.57983</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53113" lon="139.57938">
+  <extensions>
+    <ogr:SampleID>K13</ogr:SampleID>
+    <ogr:latitude>-34.53113</ogr:latitude>
+    <ogr:longitude>139.57938</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53113" lon="139.57938">
+  <extensions>
+    <ogr:SampleID>K14</ogr:SampleID>
+    <ogr:latitude>-34.53113</ogr:latitude>
+    <ogr:longitude>139.57938</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53113" lon="139.57938">
+  <extensions>
+    <ogr:SampleID>K15</ogr:SampleID>
+    <ogr:latitude>-34.53113</ogr:latitude>
+    <ogr:longitude>139.57938</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53154" lon="139.57915">
+  <extensions>
+    <ogr:SampleID>K16</ogr:SampleID>
+    <ogr:latitude>-34.53154</ogr:latitude>
+    <ogr:longitude>139.57915</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53154" lon="139.57915">
+  <extensions>
+    <ogr:SampleID>K17</ogr:SampleID>
+    <ogr:latitude>-34.53154</ogr:latitude>
+    <ogr:longitude>139.57915</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53413" lon="139.5803">
+  <extensions>
+    <ogr:SampleID>K18</ogr:SampleID>
+    <ogr:latitude>-34.53413</ogr:latitude>
+    <ogr:longitude>139.5803</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.53413" lon="139.5803">
+  <extensions>
+    <ogr:SampleID>K19</ogr:SampleID>
+    <ogr:latitude>-34.53413</ogr:latitude>
+    <ogr:longitude>139.5803</ogr:longitude>
+  </extensions>
+</wpt>
+<wpt lat="-34.5409" lon="139.58232">
+  <extensions>
+    <ogr:SampleID>K20</ogr:SampleID>
+    <ogr:latitude>-34.5409</ogr:latitude>
+    <ogr:longitude>139.58232</ogr:longitude>
+  </extensions>
+</wpt>
+</gpx>
