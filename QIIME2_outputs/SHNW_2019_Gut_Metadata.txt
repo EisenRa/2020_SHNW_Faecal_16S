@@ -1,0 +1,98 @@
+#SampleID	LinkerPrimerSequence	BarcodeSequence	Name	SampleType	GPS	Population	Captive	Warren	Date Collected	Sex	Extraction Kit	Date Extracted	Lot No.	Associated EBC	Description
+Ksoil	NA	NA	Ksoil	Soil	"54H 0370111, 6177450"	Kooloola	No	-	3/03/2019	N	Qiagen DNeasy Powersoil	7/06/2019	1600-27051	EBC3	NA
+K1A	NA	NA	K1A	Faecal	"54H 0370713, 6177166"	Kooloola	No	Ka	3/03/2019	U	Qiagen DNeasy Powersoil	28/05/2019	1600-27051	EBC1	NA
+K1B	NA	NA	K1B	Faecal	"54H 0370713, 6177166"	Kooloola	No	Ka	3/03/2019	U	Qiagen DNeasy Powersoil	28/05/2019	1600-27051	EBC1	NA
+K2	NA	NA	K2	Faecal	"54H 0370713, 6177166"	Kooloola	No	Ka	3/03/2019	U	Qiagen DNeasy Powersoil	28/05/2019	1600-27051	EBC1	NA
+K3	NA	NA	K3	Faecal	"54H 0370713, 6177166"	Kooloola	No	Ka	3/03/2019	U	Qiagen DNeasy Powersoil	30/05/2019	1600-27051	EBC2	NA
+K4	NA	NA	K4	Faecal	"54H 0370309, 6177201"	Kooloola	No	Kb	3/03/2019	U	Qiagen DNeasy Powersoil	7/06/2019	1600-27051	EBC3	NA
+K5	NA	NA	K5	Faecal	"54H 0370309, 6177201"	Kooloola	No	Kb	3/03/2019	U	Qiagen DNeasy Powersoil	28/06/2019	1630-11363	EBC4	NA
+K6	NA	NA	K6	Faecal	"54H 0370175, 6177340"	Kooloola	No	Kc	3/03/2019	U	Qiagen DNeasy Powersoil	28/06/2019	1630-11363	EBC4	NA
+K7	NA	NA	K7	Faecal	"54H 0370175, 6177340"	Kooloola	No	Kc	3/03/2019	U	Qiagen DNeasy Powersoil	1/07/2019	1630-11363	EBC5	NA
+K8	NA	NA	K8	Faecal	"54H 0370111, 6177450"	Kooloola	No	Kd	3/03/2019	U	Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+K9	NA	NA	K9	Faecal	"54H 0370156, 6177479"	Kooloola	No	Ke	3/03/2019	U	Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+K10	NA	NA	K10	Faecal	"54H 0370156, 6177479"	Kooloola	No	Ke	3/03/2019	U	Qiagen DNeasy Powersoil	5/07/2019	1630-11363	EBC6	NA
+K11	NA	NA	K11	Faecal	"54H 0370071, 6177704"	Kooloola	No	Kf	3/03/2019	U	Qiagen DNeasy Powersoil	5/07/2019	1630-11363	EBC6	NA
+K12	NA	NA	K12	Faecal	"54H 0369664, 6178278"	Kooloola	No	Kg	3/03/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+K13	NA	NA	K13	Faecal	"54H 0369626, 6178034"	Kooloola	No	Kh	3/03/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+K14	NA	NA	K14	Faecal	"54H 0369626, 6178034"	Kooloola	No	Kh	3/03/2019	U	Qiagen DNeasy Powersoil	12/07/2019	1600-54007	EBC8	NA
+K15	NA	NA	K15	Faecal	"54H 0369626, 6178034"	Kooloola	No	Kh	3/03/2019	U	Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+K16	NA	NA	K16	Faecal	"54H 0369606, 6177989"	Kooloola	No	Ki	3/03/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+K17	NA	NA	K17	Faecal	"54H 0369606, 6177989"	Kooloola	No	Ki	3/03/2019	U	Qiagen DNeasy Powersoil	12/07/2019	1600-54007	EBC8	NA
+K18	NA	NA	K18	Faecal	"54H 0369715, 6177703"	Kooloola	No	Kj	3/03/2019	U	Qiagen DNeasy Powersoil	12/07/2019	1600-54007	EBC8	NA
+K19	NA	NA	K19	Faecal	"54H 0369715, 6177703"	Kooloola	No	Kj	3/03/2019	U	Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+K20	NA	NA	K20	Faecal	"54H 0369911, 6176955"	Kooloola	No	Kl	3/03/2019	U	Qiagen DNeasy Powersoil	26/07/2019		EBC12	NA
+Bsoil	NA	NA	Bsoil	Soil	-	Brookfield	No	-	4/03/2019	N	Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+B1	NA	NA	B1	Faecal	"54H 0361354, 6197023"	Brookfield	No	Ba	4/03/2019	U	Qiagen DNeasy Powersoil	30/05/2019	1600-27051	EBC2	NA
+B2	NA	NA	B2	Faecal	"54H 0361354, 6197023"	Brookfield	No	Ba	4/03/2019	U	Qiagen DNeasy Powersoil	7/06/2019	1600-27051	EBC3	NA
+B3	NA	NA	B3	Faecal	"54H 0361354, 6197023"	Brookfield	No	Ba	4/03/2019	U	Qiagen DNeasy Powersoil	28/06/2019	1630-11363	EBC4	NA
+B4	NA	NA	B4	Faecal	"54H 0361354, 6197023"	Brookfield	No	Ba	4/03/2019	U	Qiagen DNeasy Powersoil	1/07/2019	1630-11363	EBC5	NA
+B5	NA	NA	B5	Faecal	"54H 0361785, 6197456"	Brookfield	No	Bb	4/03/2019	U	Qiagen DNeasy Powersoil	28/06/2019	1630-11363	EBC4	NA
+B6	NA	NA	B6	Faecal	"54H 0361845, 6197400"	Brookfield	No	Bc	4/03/2019	U	Qiagen DNeasy Powersoil	1/07/2019	1630-11363	EBC5	NA
+B7	NA	NA	B7	Faecal	"54H 0361845, 6197400"	Brookfield	No	Bc	4/03/2019	U	Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+B8	NA	NA	B8	Faecal	"54H 0361845, 6197400"	Brookfield	No	Bc	4/03/2019	U	Qiagen DNeasy Powersoil	5/07/2019	1630-11363	EBC6	NA
+B9	NA	NA	B9	Faecal	"54H 0362258, 6197643"	Brookfield	No	Bd	4/03/2019	U	Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+B10	NA	NA	B10	Faecal	"54H 0363448, 6197391"	Brookfield	No	Be	4/03/2019	U	Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+B11	NA	NA	B11	Faecal	"54H 0363448, 6197391"	Brookfield	No	Be	4/03/2019	U	Qiagen DNeasy Powersoil	5/07/2019	1630-11363	EBC6	NA
+B12	NA	NA	B12	Faecal	"54H 0363448, 6197391"	Brookfield	No	Be	4/03/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+B13	NA	NA	B13	Faecal	"54H 0363448, 6197391"	Brookfield	No	Be	4/03/2019	U	Qiagen DNeasy Powersoil	12/07/2019	1600-54007	EBC8	NA
+B14	NA	NA	B14	Faecal	"54H 0363789, 6197444"	Brookfield	No	Bf	4/03/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+B15	NA	NA	B15	Faecal	"54H 0363789, 6197444"	Brookfield	No	Bf	4/03/2019	U	Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+B16	NA	NA	B16	Faecal	"54H 0363752, 6197388"	Brookfield	No	Bg	4/03/2019	U	Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+B17	NA	NA	B17	Faecal	"54H 0364319, 6197085"	Brookfield	No	Bh	4/03/2019	U	Qiagen DNeasy Powersoil	26/07/2019		EBC12	NA
+M1a	NA	NA	M1a	Faecal	-	Captive	Yes	Cb	13/05/2019		Qiagen DNeasy Powersoil	28/06/2019	1630-11363	EBC4	NA
+M1b	NA	NA	M1b	Faecal	-	Captive	Yes	Cb	18/05/2019		Qiagen DNeasy Powersoil	1/07/2019	1630-11363	EBC5	NA
+M1c	NA	NA	M1c	Faecal	-	Captive	Yes	Cb	1/06/2019		Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+M2	NA	NA	M2	Faecal	-	Captive	Yes	Cb	13/05/2019		Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+M3a	NA	NA	M3a	Faecal	-	Captive	Yes	Cb	13/05/2019		Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+M3b	NA	NA	M3b	Faecal	-	Captive	Yes	Cb	1/06/2019		Qiagen DNeasy Powersoil	5/07/2019	1630-11363	EBC6	NA
+M4a	NA	NA	M4a	Faecal	-	Captive	Yes	Cb	13/05/2019		Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+M4b	NA	NA	M4b	Faecal	-	Captive	Yes	Cb	1/06/2019		Qiagen DNeasy Powersoil	5/07/2019	1630-11363	EBC6	NA
+M5	NA	NA	M5	Faecal	-	Captive	Yes	Cb	13/05/2019		Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+M6	NA	NA	M6	Faecal	-	Captive	Yes	Cb	13/05/2019		Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+M7a	NA	NA	M7a	Faecal	-	Captive	Yes	Cb	21/05/2019		Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+M7b	NA	NA	M7b	Faecal	-	Captive	Yes	Cb	1/06/2019		Qiagen DNeasy Powersoil	12/07/2019	1600-54007	EBC8	NA
+M8	NA	NA	M8	Faecal	-	Captive	Yes	Cb	1/06/2019		Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+M9a	NA	NA	M9a	Faecal	-	Captive	Yes	Cb	21/05/2019		Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+M9b	NA	NA	M9b	Faecal	-	Captive	Yes	Cb	1/06/2019		Qiagen DNeasy Powersoil	12/07/2019	1600-54007	EBC8	NA
+M10a	NA	NA	M10a	Faecal	-	Captive	Yes	Cb	28/05/2019		Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+M10b	NA	NA	M10b	Faecal	-	Captive	Yes	Cb	1/06/2019		Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+M11	NA	NA	M11	Faecal	-	Captive	Yes	Cb	1/06/2019		Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+M12	NA	NA	M12	Faecal	-	Captive	Yes	Cb	5/06/2019		Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+M13	NA	NA	M13	Faecal	-	Captive	Yes	Cb	20/05/2019		Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+M14	NA	NA	M14	Faecal	-	Captive	Yes	Cb	5/06/2019		Qiagen DNeasy Powersoil	26/07/2019		EBC12	NA
+Wsoil	NA	NA	Wsoil	Soil	"54H 0352805, 6245217"	Wonga	No	-	20/06/2019	N	Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+W1	NA	NA	W1	Faecal	"54H 0354066, 6248909"	Wonga	No	Wa	19/06/2019	U	Qiagen DNeasy Powersoil	28/06/2019	1630-11363	EBC4	NA
+W2	NA	NA	W2	Faecal	"54H 0354066, 6248909"	Wonga	No	Wa	19/06/2019	U	Qiagen DNeasy Powersoil	1/07/2019	1630-11363	EBC5	NA
+W3	NA	NA	W3	Faecal	"54H 0353651, 6249183"	Wonga	No	Wb	19/06/2019	U	Qiagen DNeasy Powersoil	28/06/2019	1630-11363	EBC4	NA
+W4	NA	NA	W4	Faecal	"54H 0353651, 6249183"	Wonga	No	Wb	19/06/2019	U	Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+W5	NA	NA	W5	Faecal	"54H 0353651, 6249183"	Wonga	No	Wb	19/06/2019	U	Qiagen DNeasy Powersoil	5/07/2019	1630-11363	EBC6	NA
+W6	NA	NA	W6	Faecal	"54H 0353762, 6247895"	Wonga	No	Wc	19/06/2019	U	Qiagen DNeasy Powersoil	1/07/2019	1630-11363	EBC5	NA
+W7	NA	NA	W7	Faecal	"54H 0353268, 6248341"	Wonga	No	Wd	19/06/2019	U	Qiagen DNeasy Powersoil	18/07/2019	1600-54007	EBC9	NA
+W8	NA	NA	W8	Faecal	"54H 0353268, 6248341"	Wonga	No	Wd	19/06/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+W9	NA	NA	W9	Faecal	"54H 0352609, 6248270"	Wonga	No	We	19/06/2019	U	Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+W10	NA	NA	W10	Faecal	"54H 0352609, 6248270"	Wonga	No	We	19/06/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+W11	NA	NA	W11	Faecal	"54H 0352609, 6248270"	Wonga	No	We	19/06/2019	U	Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+W12	NA	NA	W12	Faecal	"54H 0352609, 6248270"	Wonga	No	We	19/06/2019	U	Qiagen DNeasy Powersoil	26/07/2019		EBC12	NA
+W13	NA	NA	W13	Faecal	"54H 0352855, 6245075"	Wonga	No	Wf	20/06/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+W14	NA	NA	W14	Faecal	"54H 0352855, 6245075"	Wonga	No	Wf	20/06/2019	U	Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+W15	NA	NA	W15	Faecal	"54H 0352805, 6245217"	Wonga	No	Wg	20/06/2019	U	Qiagen DNeasy Powersoil	11/07/2019	1600-54007	EBC7	NA
+W18	NA	NA	W18	Faecal	"54H 0352805, 6245217"	Wonga	No	Wg	20/06/2019	U	Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+W16	NA	NA	W16	Faecal	"54H 0352749, 6245309"	Wonga	No	Wh	20/06/2019	U	Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+W17	NA	NA	W17	Faecal	"54H 0352749, 6245309"	Wonga	No	Wh	20/06/2019	U	Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+W19	NA	NA	W19	Faecal	"54H 0352233, 6246650"	Wonga	No	Wi	20/06/2019	U	Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+W20	NA	NA	W20	Faecal	"54H 0352233, 6246650"	Wonga	No	Wi	20/06/2019	U	Qiagen DNeasy Powersoil	25/07/2019		EBC 11	NA
+W21	NA	NA	W21	Faecal	"54H 0352574, 6248951"	Wonga	No	Wj	20/06/2019	U	Qiagen DNeasy Powersoil	24/07/2019		EBC10	NA
+W22	NA	NA	W22	Faecal	"54H 0352574, 6248951"	Wonga	No	Wj	20/06/2019	U	Qiagen DNeasy Powersoil	26/07/2019		EBC12	NA
+W23	NA	NA	W23	Faecal	"54H 0352404, 6248911"	Wonga	No	Wk	20/06/2019	U	Qiagen DNeasy Powersoil	26/07/2019		EBC12	NA
+E1-EBC1	NA	NA	EBC1	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	28/05/2019	1600-27051		NA
+E2-EBC2	NA	NA	EBC2	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	30/05/2019	1600-27051		NA
+E3-EBC3	NA	NA	EBC3	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	7/06/2019	1600-27051		NA
+E4-EBC4	NA	NA	EBC4	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	28/06/2019	1630-11363		NA
+E5-EBC5	NA	NA	EBC5	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	1/07/2019	1630-11363		NA
+E6-EBC6	NA	NA	EBC6	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	5/07/2019	1630-11363		NA
+E7-EBC7	NA	NA	EBC7	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	11/07/2019	1600-54007		NA
+E8-EBC8	NA	NA	EBC8	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	12/07/2019	1600-54007		NA
+E9-EBC9	NA	NA	EBC9	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	18/07/2019			NA
+E10-EBC10	NA	NA	EBC10	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	24/07/2019			NA
+E11-EBC11	NA	NA	EBC11	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	25/07/2019			NA
+E12-EBC12	NA	NA	EBC12	Control		Controls	NA	Controls		N	Qiagen DNeasy Powersoil	26/07/2019			NA

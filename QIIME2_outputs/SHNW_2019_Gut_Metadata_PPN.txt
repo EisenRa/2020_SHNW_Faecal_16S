@@ -1,0 +1,5 @@
+SampleID	Population
+Brookfield	Brookfield
+Wonga	Wonga
+Captive	Captive
+Kooloola	Kooloola
