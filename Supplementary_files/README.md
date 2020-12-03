@@ -24,7 +24,7 @@ Pairwise Kruskal-Wallis test results for observed features (richness) metric com
 SINA alignment results of the most abundant core ASVs in SHNWs.
 
 -SI_Table_4:
-SourceTracker2 results testing the estimated proportion of faecal bacteria coming from soil. https://doi.org/10.25909/12979157
+SourceTracker2 results testing the estimated proportion of faecal bacteria coming from soil.
 
 -SI_File_1:
 QIIME2 qzv file of taxonomic bar plots per sample.
