@@ -2,7 +2,12 @@
 title: "R code for figures"
 author: "Raphael Eisenhofer"
 date: "30/11/2020"
-output: html_document
+output:
+  pdf_document:
+    dev: cairo_pdf
+  html_document: default
+  latex_engine: xelatex
+geometry: margin = 0.1in
 ---
 
 ```{r setup, include=FALSE}
@@ -27,9 +32,9 @@ library(ggpubr)
 library(tidyr)
 library(knitr)
 library(microbiome)
-library(microbiomeutilities)
 library(VennDiagram)
 library(ggVennDiagram)
+library(eulerr)
 ```
 
 ## Import data
@@ -43,10 +48,14 @@ ps <- qza_to_phyloseq(
 )
 
 #PCoA matrices
-pcoa_uwUniFrac_all <- read_qza("QIIME2_outputs/SHNW-gut-Core-metrics-final-filtered-table-36346/unweighted_unifrac_pcoa_results.qza")
-pcoa_wUniFrac_all <- read_qza("QIIME2_outputs/SHNW-gut-Core-metrics-final-filtered-table-36346/weighted_unifrac_pcoa_results.qza")
-pcoa_uwUniFrac_wild <- read_qza("QIIME2_outputs/SHNW-gut-Core-metrics-final-filtered-table-36346-WILDonly/unweighted_unifrac_pcoa_results.qza")
-pcoa_wUniFrac_wild <- read_qza("QIIME2_outputs/SHNW-gut-Core-metrics-final-filtered-table-36346-WILDonly/weighted_unifrac_pcoa_results.qza")
+pcoa_uwUniFrac_all <- read_qza(
+  "QIIME2_outputs/SHNW-gut-Core-metrics-final-filtered-table-36346/unweighted_unifrac_pcoa_results.qza")
+pcoa_wUniFrac_all <- read_qza(
+  "QIIME2_outputs/SHNW-gut-Core-metrics-final-filtered-table-36346/weighted_unifrac_pcoa_results.qza")
+pcoa_uwUniFrac_wild <- read_qza(
+  "QIIME2_outputs/SHNW-gut-Core-metrics-final-filtered-table-36346-WILDonly/unweighted_unifrac_pcoa_results.qza")
+pcoa_wUniFrac_wild <- read_qza(
+  "QIIME2_outputs/SHNW-gut-Core-metrics-final-filtered-table-36346-WILDonly/weighted_unifrac_pcoa_results.qza")
 
 #Alpha divresity data
 faithsPD <- read.csv("QIIME2_outputs/faithsPD.tsv", sep = '\t')
@@ -56,11 +65,14 @@ ObsFeat <- read.csv("QIIME2_outputs/observed_otus.tsv", sep = '\t')
 captive.asvs <- read.csv("QIIME2_outputs/feature-frequency-detail-captive-200.csv", header = FALSE, row.names = 1)
 wild.asvs <- read.csv("QIIME2_outputs/feature-frequency-detail-wild-750.csv", header = FALSE, row.names = 1)
 
-brookfield.asvs <- read.csv("QIIME2_outputs/feature-frequency-detail-Brookfield.csv", header = FALSE, row.names = 1)
+brookfield.asvs <- read.csv(
+  "QIIME2_outputs/feature-frequency-detail-Brookfield.csv", header = FALSE, row.names = 1)
 
-kooloola.asvs <- read.csv("QIIME2_outputs/feature-frequency-detail-Kooloola.csv", header = FALSE, row.names = 1)
+kooloola.asvs <- read.csv(
+  "QIIME2_outputs/feature-frequency-detail-Kooloola.csv", header = FALSE, row.names = 1)
 
-wonga.asvs <- read.csv("QIIME2_outputs/feature-frequency-detail-Wonga.csv", header = FALSE, row.names = 1)
+wonga.asvs <- read.csv(
+  "QIIME2_outputs/feature-frequency-detail-Wonga.csv", header = FALSE, row.names = 1)
 
 ```
 
@@ -161,16 +173,16 @@ pcoa_uwUniFrac_all$data$Vectors %>%
   
   ggplot(aes(x=PC1, y=PC2, color=Population)) +
   scale_x_reverse() +
-  geom_point(size=5) +
+  geom_point(size=7.5) +
   xlab(paste("PC1: ", round(100*pcoa_uwUniFrac_all$data$ProportionExplained[1]), "%")) +
   ylab(paste("PC2: ", round(100*pcoa_uwUniFrac_all$data$ProportionExplained[2]), "%")) +
   #Custom manual colours
   scale_colour_manual(values=cbp2_beta) +
   
-  theme(axis.text.x = element_text(face="bold", size=14), 
-        axis.text.y = element_text(face="bold", size=14),
-        axis.title.x = element_text(size=20, face="bold"),
-        axis.title.y = element_text(size=20, face="bold"),
+  theme(axis.text.x = element_text(face="bold", size=24), 
+        axis.text.y = element_text(face="bold", size=24),
+        axis.title.x = element_text(size=30, face="bold"),
+        axis.title.y = element_text(size=30, face="bold"),
         axis.line = element_line(colour = "black"),
         #Background panel
         panel.background = element_rect(fill = "White"),
@@ -178,7 +190,7 @@ pcoa_uwUniFrac_all$data$Vectors %>%
         panel.grid.minor = element_line(colour = "white"),
         #Legend
         legend.title = element_text(size=0),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=24),
         legend.key = element_rect(fill = "white", color = NA),
         legend.key.size = unit(3.5, "line"))
 
@@ -192,16 +204,16 @@ pcoa_uwUniFrac_all$data$Vectors %>%
   
   ggplot(aes(x=PC1, y=PC3, color=Population)) +
   scale_x_reverse() +
-  geom_point(size=5) +
+  geom_point(size=7.5) +
   xlab(paste("PC1: ", round(100*pcoa_uwUniFrac_all$data$ProportionExplained[1]), "%")) +
   ylab(paste("PC3: ", round(100*pcoa_uwUniFrac_all$data$ProportionExplained[3]), "%")) +
   #Custom manual colours
   scale_colour_manual(values=cbp2_beta) +
   
-  theme(axis.text.x = element_text(face="bold", size=14), 
-        axis.text.y = element_text(face="bold", size=14),
-        axis.title.x = element_text(size=20, face="bold"),
-        axis.title.y = element_text(size=20, face="bold"),
+  theme(axis.text.x = element_text(face="bold", size=24), 
+        axis.text.y = element_text(face="bold", size=24),
+        axis.title.x = element_text(size=30, face="bold"),
+        axis.title.y = element_text(size=30, face="bold"),
         axis.line = element_line(colour = "black"),
         #Background panel
         panel.background = element_rect(fill = "White"),
@@ -209,7 +221,7 @@ pcoa_uwUniFrac_all$data$Vectors %>%
         panel.grid.minor = element_line(colour = "white"),
         #Legend
         legend.title = element_text(size=0),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=24),
         legend.key = element_rect(fill = "white", color = NA),
         legend.key.size = unit(3.5, "line"))
 
@@ -224,16 +236,16 @@ pcoa_wUniFrac_all$data$Vectors %>%
   
   ggplot(aes(x=PC1, y=PC2, color=Population)) +
   scale_x_reverse() +
-  geom_point(size=5) +
+  geom_point(size=7.5) +
   xlab(paste("PC1: ", round(100*pcoa_wUniFrac_all$data$ProportionExplained[1]), "%")) +
   ylab(paste("PC2: ", round(100*pcoa_wUniFrac_all$data$ProportionExplained[2]), "%")) +
   #Custom manual colours
   scale_colour_manual(values=cbp2_beta) +
   
-  theme(axis.text.x = element_text(face="bold", size=14), 
-        axis.text.y = element_text(face="bold", size=14),
-        axis.title.x = element_text(size=20, face="bold"),
-        axis.title.y = element_text(size=20, face="bold"),
+  theme(axis.text.x = element_text(face="bold", size=24), 
+        axis.text.y = element_text(face="bold", size=24),
+        axis.title.x = element_text(size=30, face="bold"),
+        axis.title.y = element_text(size=30, face="bold"),
         axis.line = element_line(colour = "black"),
         #Background panel
         panel.background = element_rect(fill = "White"),
@@ -241,12 +253,12 @@ pcoa_wUniFrac_all$data$Vectors %>%
         panel.grid.minor = element_line(colour = "white"),
         #Legend
         legend.title = element_text(size=0),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=32),
         legend.key = element_rect(fill = "white", color = NA),
         legend.key.size = unit(3.5, "line"))
 
 #Save image
-ggsave(filename = "PC1-2_wUniFrac_all.svg", width = 20, height = 11, dpi = 300)
+ggsave(filename = "PC1-2_wUniFrac_all.svg", width = 25, height = 10, dpi = 300)
 
 #Plot PC1 vs. PC3 (wUniFrac_all)
 pcoa_wUniFrac_all$data$Vectors %>%
@@ -255,16 +267,16 @@ pcoa_wUniFrac_all$data$Vectors %>%
   
   ggplot(aes(x=PC1, y=PC3, color=Population)) +
   scale_x_reverse() +
-  geom_point(size=5) +
+  geom_point(size=7.5) +
   xlab(paste("PC1: ", round(100*pcoa_wUniFrac_all$data$ProportionExplained[1]), "%")) +
   ylab(paste("PC3: ", round(100*pcoa_wUniFrac_all$data$ProportionExplained[3]), "%")) +
   #Custom manual colours
   scale_colour_manual(values=cbp2_beta) +
   
-  theme(axis.text.x = element_text(face="bold", size=14), 
-        axis.text.y = element_text(face="bold", size=14),
-        axis.title.x = element_text(size=20, face="bold"),
-        axis.title.y = element_text(size=20, face="bold"),
+  theme(axis.text.x = element_text(face="bold", size=24), 
+        axis.text.y = element_text(face="bold", size=24),
+        axis.title.x = element_text(size=30, face="bold"),
+        axis.title.y = element_text(size=30, face="bold"),
         axis.line = element_line(colour = "black"),
         #Background panel
         panel.background = element_rect(fill = "White"),
@@ -272,12 +284,12 @@ pcoa_wUniFrac_all$data$Vectors %>%
         panel.grid.minor = element_line(colour = "white"),
         #Legend
         legend.title = element_text(size=0),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=24),
         legend.key = element_rect(fill = "white", color = NA),
         legend.key.size = unit(3.5, "line"))
 
 #Save image
-ggsave(filename = "PC1-3_wUniFrac_all.svg", width = 20, height = 11, dpi = 300)
+ggsave(filename = "PC1-3_wUniFrac_all.svg", width = 25, height = 10, dpi = 300)
 
 
 #################
@@ -296,16 +308,16 @@ pcoa_uwUniFrac_wild$data$Vectors %>%
   
   ggplot(aes(x=PC1, y=PC2, color=Population)) +
   scale_x_reverse() +
-  geom_point(size=5) +
+  geom_point(size=7.5) +
   xlab(paste("PC1: ", round(100*pcoa_uwUniFrac_wild$data$ProportionExplained[1]), "%")) +
   ylab(paste("PC2: ", round(100*pcoa_uwUniFrac_wild$data$ProportionExplained[2]), "%")) +
   #Custom manual colours
   scale_colour_manual(values=cbp2_beta_wild) +
   
-  theme(axis.text.x = element_text(face="bold", size=14), 
-        axis.text.y = element_text(face="bold", size=14),
-        axis.title.x = element_text(size=20, face="bold"),
-        axis.title.y = element_text(size=20, face="bold"),
+  theme(axis.text.x = element_text(face="bold", size=24), 
+        axis.text.y = element_text(face="bold", size=24),
+        axis.title.x = element_text(size=30, face="bold"),
+        axis.title.y = element_text(size=30, face="bold"),
         axis.line = element_line(colour = "black"),
         #Background panel
         panel.background = element_rect(fill = "White"),
@@ -313,12 +325,12 @@ pcoa_uwUniFrac_wild$data$Vectors %>%
         panel.grid.minor = element_line(colour = "white"),
         #Legend
         legend.title = element_text(size=0),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=32),
         legend.key = element_rect(fill = "white", color = NA),
         legend.key.size = unit(3.5, "line"))
 
 #Save image
-ggsave(filename = "PC1-2_uwUniFrac_wild.svg", width = 20, height = 11, dpi = 300)
+ggsave(filename = "PC1-2_uwUniFrac_wild.svg", width = 25, height = 10, dpi = 300)
 
 #Plot PC1 vs. PC3 (uwUniFrac_wild)
 pcoa_uwUniFrac_wild$data$Vectors %>%
@@ -327,16 +339,16 @@ pcoa_uwUniFrac_wild$data$Vectors %>%
   
   ggplot(aes(x=PC1, y=PC3, color=Population)) +
   scale_x_reverse() +
-  geom_point(size=5) +
+  geom_point(size=7.5) +
   xlab(paste("PC1: ", round(100*pcoa_uwUniFrac_wild$data$ProportionExplained[1]), "%")) +
   ylab(paste("PC3: ", round(100*pcoa_uwUniFrac_wild$data$ProportionExplained[3]), "%")) +
   #Custom manual colours
   scale_colour_manual(values=cbp2_beta_wild) +
   
-  theme(axis.text.x = element_text(face="bold", size=14), 
-        axis.text.y = element_text(face="bold", size=14),
-        axis.title.x = element_text(size=20, face="bold"),
-        axis.title.y = element_text(size=20, face="bold"),
+  theme(axis.text.x = element_text(face="bold", size=24), 
+        axis.text.y = element_text(face="bold", size=24),
+        axis.title.x = element_text(size=30, face="bold"),
+        axis.title.y = element_text(size=30, face="bold"),
         axis.line = element_line(colour = "black"),
         #Background panel
         panel.background = element_rect(fill = "White"),
@@ -344,12 +356,12 @@ pcoa_uwUniFrac_wild$data$Vectors %>%
         panel.grid.minor = element_line(colour = "white"),
         #Legend
         legend.title = element_text(size=0),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=24),
         legend.key = element_rect(fill = "white", color = NA),
         legend.key.size = unit(3.5, "line"))
 
 #Save image
-ggsave(filename = "PC1-3_uwUniFrac_wild.svg", width = 20, height = 11, dpi = 300)
+ggsave(filename = "PC1-3_uwUniFrac_wild.svg", width = 25, height = 10, dpi = 300)
 
 
 #Plot PC1 vs. PC2 (wUniFrac_wild)
@@ -359,16 +371,16 @@ pcoa_wUniFrac_wild$data$Vectors %>%
   
   ggplot(aes(x=PC1, y=PC2, color=Population)) +
   scale_x_reverse() +
-  geom_point(size=5) +
+  geom_point(size=7.5) +
   xlab(paste("PC1: ", round(100*pcoa_wUniFrac_wild$data$ProportionExplained[1]), "%")) +
   ylab(paste("PC2: ", round(100*pcoa_wUniFrac_wild$data$ProportionExplained[2]), "%")) +
   #Custom manual colours
   scale_colour_manual(values=cbp2_beta_wild) +
   
-  theme(axis.text.x = element_text(face="bold", size=14), 
-        axis.text.y = element_text(face="bold", size=14),
-        axis.title.x = element_text(size=20, face="bold"),
-        axis.title.y = element_text(size=20, face="bold"),
+  theme(axis.text.x = element_text(face="bold", size=24), 
+        axis.text.y = element_text(face="bold", size=24),
+        axis.title.x = element_text(size=30, face="bold"),
+        axis.title.y = element_text(size=30, face="bold"),
         axis.line = element_line(colour = "black"),
         #Background panel
         panel.background = element_rect(fill = "White"),
@@ -376,12 +388,12 @@ pcoa_wUniFrac_wild$data$Vectors %>%
         panel.grid.minor = element_line(colour = "white"),
         #Legend
         legend.title = element_text(size=0),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=32),
         legend.key = element_rect(fill = "white", color = NA),
         legend.key.size = unit(3.5, "line"))
 
 #Save image
-ggsave(filename = "PC1-2_wUniFrac_wild.svg", width = 20, height = 11, dpi = 300)
+ggsave(filename = "PC1-2_wUniFrac_wild.svg", width = 25, height = 10, dpi = 300)
 
 #Plot PC1 vs. PC3 (wUniFrac_wild)
 pcoa_wUniFrac_wild$data$Vectors %>%
@@ -390,16 +402,16 @@ pcoa_wUniFrac_wild$data$Vectors %>%
   
   ggplot(aes(x=PC1, y=PC3, color=Population)) +
   scale_x_reverse() +
-  geom_point(size=5) +
+  geom_point(size=7.5) +
   xlab(paste("PC1: ", round(100*pcoa_wUniFrac_wild$data$ProportionExplained[1]), "%")) +
   ylab(paste("PC3: ", round(100*pcoa_wUniFrac_wild$data$ProportionExplained[3]), "%")) +
   #Custom manual colours
   scale_colour_manual(values=cbp2_beta_wild) +
   
-  theme(axis.text.x = element_text(face="bold", size=14), 
-        axis.text.y = element_text(face="bold", size=14),
-        axis.title.x = element_text(size=20, face="bold"),
-        axis.title.y = element_text(size=20, face="bold"),
+  theme(axis.text.x = element_text(face="bold", size=24), 
+        axis.text.y = element_text(face="bold", size=24),
+        axis.title.x = element_text(size=30, face="bold"),
+        axis.title.y = element_text(size=30, face="bold"),
         axis.line = element_line(colour = "black"),
         #Background panel
         panel.background = element_rect(fill = "White"),
@@ -407,12 +419,12 @@ pcoa_wUniFrac_wild$data$Vectors %>%
         panel.grid.minor = element_line(colour = "white"),
         #Legend
         legend.title = element_text(size=0),
-        legend.text = element_text(size=16),
+        legend.text = element_text(size=24),
         legend.key = element_rect(fill = "white", color = NA),
         legend.key.size = unit(3.5, "line"))
 
 #Save image
-ggsave(filename = "PC1-3_wUniFrac_wild.svg", width = 20, height = 11, dpi = 300)
+ggsave(filename = "PC1-3_wUniFrac_wild.svg", width = 25, height = 10, dpi = 300)
 ```
 
 ## Venn diagrams (figures 3 and 5)
@@ -425,7 +437,8 @@ wild.asv.names <- row.names(wild.asvs)
 
 captive.vs.wild <- list(Captive = captive.asv.names, Wild = wild.asv.names)
 
-venn.diagram(captive.vs.wild, print.mode = c("raw","percent"), fill = c("black", "white"), cat.fontface = 2, cat.pos = 180, imagetype = "png", filename = "R_figures/captive-vs-wild-venn.png")
+venn.diagram(captive.vs.wild, print.mode = c("raw","percent"), fill = c("black", "white"), cat.fontface = 2,
+             cat.pos = 180, imagetype = "png", filename = "R_figures/captive-vs-wild-venn.png")
 ```
 ![Captive and Wild](./R_figures/captive-vs-wild-venn.png "Title")
 
@@ -433,13 +446,32 @@ venn.diagram(captive.vs.wild, print.mode = c("raw","percent"), fill = c("black",
 ```{r}
 ##Wild populations
 #Store only row names (ASV names) as character vectors
+#Note this figure was not used for publication, see eulerr diagram below
 brookfield.asv.names <- row.names(brookfield.asvs)
 kooloola.asv.names <- row.names(kooloola.asvs)
 wonga.asv.names <- row.names(wonga.asvs)
 
 wild.comparison <- list(Brookfield = brookfield.asv.names, Kooloola = kooloola.asv.names, Wonga = wonga.asv.names)
 
-venn.diagram(wild.comparison, print.mode = c("raw","percent"), fill = c("orange", "red", "blue"), cat.fontface = 2, cat.pos = c(320, 40, 180), imagetype = "png", filename = "R_figures/wild-populations-venn.png")
+venn.diagram(wild.comparison, print.mode = c("raw","percent"), fill = c("orange", "red", "blue"), 
+             cat.fontface = 2, cat.pos = c(320, 40, 180), imagetype = "png", 
+             filename = "R_figures/wild-populations-venn.png")
+
+#EulerR diagram for figure 5
+euler.fig.5 <- euler(wild.comparison)
+
+pdf(file = "Figure5.pdf")
+
+plot(euler.fig.5,
+     fills = c("orange", "red", "blue"),
+     edges = TRUE,
+     fontsize = 8,
+     quantities = list(fontsize = 12,
+     lwd = 10))
+
+dev.off()
+
+
 ```
 
 ![Captive and Wild](./R_figures/wild-populations-venn.png "Title")
