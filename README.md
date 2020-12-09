@@ -9,6 +9,8 @@ Preprint link: https://www.researchsquare.com/article/rs-81023/v1
 - R code used for figures is available in the R Markdown document: **Figures.rmd**
 - The raw DNA sequencing data is available on the NCBI SRA: BioProject ID PRJNA663974
 
+[![DOI](https://zenodo.org/badge/316123393.svg)](https://zenodo.org/badge/latestdoi/316123393)
+
 If you have any questions, please don't hesitate getting in touch with me :-)
 
 
