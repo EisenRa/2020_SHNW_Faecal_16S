@@ -1,7 +1,7 @@
 # 2020_SHNW_Faecal_16S
 ### Repository for the 2020 paper: "Signatures of landscape and captivity in the gut microbiota of Southern Hairy-nosed Wombats (Lasiorhinus latifrons)" in Animal Microbiome
 
-Preprint link: https://www.researchsquare.com/article/rs-81023/v1
+Open-access paper link: https://animalmicrobiome.biomedcentral.com/articles/10.1186/s42523-020-00068-y
 
 - QIIME2 code + analysis details are available in the Jupyter notebook: **SHNW_Gut_16S_2019.ipynb**
 - QIIME2 outputs are available in the **QIIME2_Outputs** folder
